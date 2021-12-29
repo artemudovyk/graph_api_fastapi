@@ -3,7 +3,7 @@
 Small API (Python+FastAPI) that allows you to manage graph structures + get the results of DFS algorithm.
 
 You can create graph, add vertices and edges. Checks if we are editing correct vertices that are part of the active graph are in place, e.g.:
-```
+```python
 if start_vertex not in graph.vertices:
         raise HTTPException(status_code=404, detail=f'Submited vertex is from different graph. vertex={vertex_id} is from graph={start_vertex.graph_id}, but you submited graph={graph_id}')
 ```
