@@ -13,8 +13,8 @@ To start application with Docker:
 ```
 $ git clone https://github.com/artemudovyk/graph_api_fastapi
 $ cd graph_api_fastapi
-docker-compose build
-docker-compose up -d
+$ docker-compose build
+$ docker-compose up -d
 ```
 Open website on http://localhost:8000/. 
 
