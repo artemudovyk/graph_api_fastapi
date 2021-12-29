@@ -24,8 +24,21 @@ API docs can be accessed at http://localhost:8000/docs or http://localhost:8000/
 
 
 ## Examples
-GET all graphs
+Get all graphs
 ![image](https://user-images.githubusercontent.com/58283675/147693631-eee126fc-9b18-48ee-980b-073e6c623c3f.png)
+
+Create new graph
+![image](https://user-images.githubusercontent.com/58283675/147696496-5148dac3-2f1c-4f9d-a225-319a56c01793.png)
+
+Create new vertex
+![image](https://user-images.githubusercontent.com/58283675/147696484-d92c75b8-73c6-4a49-acab-45eb8197be3c.png)
+
+Create new edge
+![image](https://user-images.githubusercontent.com/58283675/147696469-e1839695-d185-42bb-a5f3-714bdcb0c878.png)
+
+Delete graph
+![image](https://user-images.githubusercontent.com/58283675/147696520-243490c8-e955-4489-92af-6467d44fdc8b.png)
+
 
 DFS (Depth-First Search) Algorithm for graph id=4 and with starting point in vertex id=1
 ![image](https://user-images.githubusercontent.com/58283675/147693711-1c7e3e05-9999-41e0-9f06-c11336a9a735.png)
