@@ -1,5 +1,7 @@
 # graph_api_fastapi
 
+Small API (Python+FastAPI) that allows you to manage graph structures + get the results of DFS algorithm.
+
 ## How to install
 To start application:
 ```
@@ -13,7 +15,7 @@ $ uvicorn main:app --reload
 ```
 Website will be loaded on http://127.0.0.1:8000/. 
 
-Autodocs can be accessed at http://127.0.0.1:8000/docs or http://127.0.0.1:8000/redoc.
+API docs can be accessed at http://127.0.0.1:8000/docs or http://127.0.0.1:8000/redoc.
 
 ## Examples
 GET all graphs
