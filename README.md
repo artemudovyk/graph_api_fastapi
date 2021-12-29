@@ -20,6 +20,9 @@ Open website on http://localhost:8000/.
 
 API docs can be accessed at http://localhost:8000/docs or http://localhost:8000/redoc.
 
+![image](https://user-images.githubusercontent.com/58283675/147695953-51514b23-69d2-45d9-be6d-6ed96cb14820.png)
+
+
 ## Examples
 GET all graphs
 ![image](https://user-images.githubusercontent.com/58283675/147693631-eee126fc-9b18-48ee-980b-073e6c623c3f.png)
