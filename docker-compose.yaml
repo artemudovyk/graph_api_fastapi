@@ -1,0 +1,17 @@
+version: "0.1.0"
+services:
+  project:
+    restart: always
+    container_name: code
+    command : bash -c "uvicorn main:app --reload"
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    networks:
+      - app-net
+
+networks:
+  app-net:
+    driver: bridge
