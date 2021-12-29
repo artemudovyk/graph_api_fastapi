@@ -1,7 +1,30 @@
 # graph_api_fastapi
 
+## How to install
+To start application:
+```
+$ git clone https://github.com/artemudovyk/graph_api_fastapi
+$ cd graph_api_fastapi
+# create python environment and install dependencies
+$ python -m venv .env
+$ pip install requirements.txt
+$ uvicorn main:app --reload
 
-Task description:
+```
+Website will be loaded on http://127.0.0.1:8000/. 
+
+Autodocs can be accessed at http://127.0.0.1:8000/docs or http://127.0.0.1:8000/redoc.
+
+## Examples
+GET all graphs
+![image](https://user-images.githubusercontent.com/58283675/147693631-eee126fc-9b18-48ee-980b-073e6c623c3f.png)
+
+DFS (Depth-First Search) Algorithm for graph id=4 and with starting point in vertex id=1
+![image](https://user-images.githubusercontent.com/58283675/147693711-1c7e3e05-9999-41e0-9f06-c11336a9a735.png)
+
+
+## Task description:
+
 Create small **API** (not an app with UI) that allows you to manage graph structures.
 
 ### Requirements🤓:
