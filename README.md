@@ -9,19 +9,16 @@ if start_vertex not in graph.vertices:
 ```
 
 ## How to install
-To start application:
+To start application with Docker:
 ```
 $ git clone https://github.com/artemudovyk/graph_api_fastapi
 $ cd graph_api_fastapi
-# create python environment and install dependencies
-$ python -m venv .env
-$ pip install requirements.txt
-$ uvicorn main:app --reload
-
+docker-compose build
+docker-compose up -d
 ```
-Website will be loaded on http://127.0.0.1:8000/. 
+Open website on http://localhost:8000/. 
 
-API docs can be accessed at http://127.0.0.1:8000/docs or http://127.0.0.1:8000/redoc.
+API docs can be accessed at http://localhost:8000/docs or http://localhost:8000/redoc.
 
 ## Examples
 GET all graphs
