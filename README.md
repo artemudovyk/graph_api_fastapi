@@ -1,5 +1,9 @@
 # graph_api_fastapi
 
+Repository created as part of a take-home assignment during the interview process in late 2021.
+
+---
+
 Small API (Python+FastAPI) that allows you to manage graph structures + get the results of DFS algorithm.
 
 You can create graph, add vertices and edges. Also additional input checks (like is user trying to edit correct vertices that are part of the active graph or not) are in place, e.g.:
